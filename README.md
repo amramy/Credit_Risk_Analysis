@@ -1,13 +1,13 @@
 # Credit Risk Analysis
 
 ## Overview: 
-Utilize the dataset from LendingClub to perform various machine learning models in order to compare which one would reduce bias the most to help identify credit card risk.  Knowing that this is an unbalanced dataset with 0.5% risky loans we will utilize imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. 
+Utilize the dataset from LendingClub to perform various machine learning models to identify risky credit card loans. Knowing that this is an unbalanced dataset with 0.5% risky loans we will utilize imbalanced-learn and scikit-learn libraries to build various models for comparison to find which one would reduce bias the most.  
 
 The models used to predict credit risk are:
   * RandomOverSampler and SMOTE to over-sample the data.
   * ClusterCentroids to under-sample the data. 
-  * SMOTEEN algorithm using an combination under/oversample approach.
-  * BalancedRandomForestClassifier and EasyEnsembleClassifier as resampling data ensemble classifiers.
+  * SMOTEEN a combination under/over-sample approach.
+  * BalancedRandomForestClassifier and EasyEnsembleClassifier to re-sample the data.
   
 ## Results: 
   
